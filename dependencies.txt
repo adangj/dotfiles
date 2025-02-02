@@ -15,3 +15,4 @@ apple-fonts
 flameshot
 ttf-jetbrains-mono-nerd
 ttf-victor-mono-nerd
+tmux

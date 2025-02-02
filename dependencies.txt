@@ -6,3 +6,10 @@ thunar-media-tags-plugin
 thunar-volman
 ristretto
 tumbler
+feh
+picom
+twmn-git
+xautolock
+rofi
+apple-fonts
+flameshot

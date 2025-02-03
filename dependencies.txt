@@ -20,3 +20,6 @@ neovim
 xclip
 fzf
 miniconda3
+npm
+luarocks
+unzip

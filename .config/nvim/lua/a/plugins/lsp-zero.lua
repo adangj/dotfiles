@@ -111,4 +111,29 @@ return {
 			})
 		end,
 	},
+
+	-- Add mason-tool-installer.nvim
+	{
+		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		lazy = false,
+		opts = {
+			ensure_installed = {
+				-- LSP servers
+				"lua-language-server", -- Lua language server
+				"pyright", -- Python language server
+
+				-- Formatters and linters
+				"luacheck", -- Lua linters
+				"stylua", -- Lua formatter
+				"pylint", -- Python linters
+				"black", -- Python code formatter
+				"isort", -- Python import sorter
+
+				-- Debuggers
+				"debugpy", -- Python debugger
+			},
+			auto_update = true, -- Automatically update tools
+			run_on_start = true, -- Install tools on startup
+		},
+	},
 }
